@@ -2,6 +2,9 @@
   "name": "chat-app-server",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "npm": "^8.3.1"
+  },
   "main": "./src/index.ts",
   "scripts": {
     "start": "npm run build && node build/index.js",
