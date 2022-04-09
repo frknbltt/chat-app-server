@@ -37,7 +37,7 @@ app.use("/user", userRoutes);
 app.use("/messages", messageRoutes);
 
 app.use((request: Request, response: Response, next: NextFunction) => {
-  const error = new Error("NOT FOUNDs");
+  const error = new Error("NOT FOUNDsds");
   return response.status(404).json({
     message: error.message,
   });
